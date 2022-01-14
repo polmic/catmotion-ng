@@ -31,7 +31,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/styles.scss",
+              "src/styles/skeleton/normalize.css",
+              "src/styles/skeleton/skeleton.css"
             ],
             "scripts": []
           },
@@ -99,7 +101,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/styles.scss",
+              "src/styles/skeleton/normalize.css",
+              "src/styles/skeleton/skeleton.css"
             ],
             "scripts": []
           }

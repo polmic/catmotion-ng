@@ -6,7 +6,7 @@
   <tbody>
     <tr *ngFor="let video of videos">
       <td style="cursor: pointer;" (click)="selectedVideoId = video.id">
-        <a>{{ video.name }}</a>
+        <a>{{ video.filename }}</a>
       </td>
       <td><button class="button-primary" (click)="deleteVideo(video.id)">Delete</button></td>
     </tr>

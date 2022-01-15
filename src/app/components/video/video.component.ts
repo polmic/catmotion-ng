@@ -11,16 +11,16 @@ export class VideoComponent implements OnInit {
 
   private _videoId!: string;
   @Input() set videoId(value: string) {
-     this._videoId = value;
-     this.setVideoSrc(this._videoId);
+    this._videoId = value;
+    this.setVideoSrc(this._videoId);
   }
-  
+
   get videoId(): string {
-      return this._videoId;
+    return this._videoId;
   }
 
   setVideoSrc(_videoId: string) {
-    this.videoSrc = `${environment.apiUrl}/stream/${_videoId}`
+    this.videoSrc = `${environment.apiUrl}/videos/stream/${_videoId}`
   }
 
   constructor() { }
